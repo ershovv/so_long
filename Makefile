@@ -46,7 +46,6 @@ $(NAME) : $(OBJ) $(HEAD)
 clean:
 	$(MAKE) -C ./libft clean
 	$(RM) $(OBJ)
-	$(RM) $(OBJB)
 
 fclean: clean
 	$(RM) ./libft/libft.a
